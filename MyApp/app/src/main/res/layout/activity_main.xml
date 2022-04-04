@@ -14,9 +14,11 @@
         android:layout_height="108dp"
         android:layout_gravity="center_horizontal"
         android:paddingTop="60dp"
-        android:text="WHAT'S HERE!"
+        android:text="WHAT'S HERE"
         android:textAlignment="center"
-        android:textSize="38dp" />
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edit1"
@@ -24,11 +26,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text1"
         android:layout_centerVertical="true"
-        android:layout_marginTop="84dp"
-        android:paddingLeft="20dp"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="84dp"
         android:layout_marginRight="15dp"
-        android:text="Email Adress">
+        android:hint="Email Adress"
+        android:padding="15dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white">
 
     </EditText>
 
@@ -40,21 +44,25 @@
         android:layout_below="@id/edit1"
         android:layout_marginTop="-13dp"
         android:paddingLeft="20dp"
+        android:padding="20dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:text="PASSWORD">
+        android:hint="Password"
+        android:textColor="@color/white">
 
     </EditText>
 
     <Button
         android:id="@+id/botao1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="63dp"
         android:layout_below="@id/edit2"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="25dp"
-        android:text="LOGIN">
+        android:shadowColor=
+        android:text="LOGIN"
+        android:textColor="@color/white">
 
     </Button>
 
@@ -65,7 +73,9 @@
         android:layout_below="@+id/botao1"
         android:layout_marginTop="12dp"
         android:gravity="center"
-        android:text="FORGET PASSWORD?">
+        android:hint="FORGET PASSWORD?"
+        android:padding="15dp"
+        android:textColor="@color/white">
 
 
     </TextView>
@@ -77,7 +87,9 @@
         android:layout_below="@+id/text2"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="------------OR---------">
+        android:hint=" ------------------- or  -------------------"
+        android:textStyle="bold"
+        android:textColor="@color/white">
 
 
     </TextView>
@@ -89,7 +101,8 @@
         android:layout_below="@+id/text3"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="SIGN UP">
+        android:hint="SIGN UP"
+        android:textColor="@color/white">
 
 
     </TextView>
